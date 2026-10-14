@@ -1,0 +1,10 @@
+scenarioKinds:
+  - id: primary
+    name: Primary
+    description: The ordinary supported outcome of the ability, including a supported alternative route and unattended runs.
+  - id: validation
+    name: Validation
+    description: The Product refuses the request because input is invalid or incomplete, or because the actor may not perform it.
+  - id: edge
+    name: Edge
+    description: A conflict with the current state of the thing, a missing precondition or a partial outcome the Product distinguishes.
